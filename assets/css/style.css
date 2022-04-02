@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+header {
+    width: 100%;
+    padding: 30px;
+    background-color: blue;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: white;
+    text-align: center;
+  }
+
+section {
+    font-family: Helvetica, Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+.sidebar {
+    flex: 1 30%;
+    min-width: 200px;
+    border: 1px solid;
+    margin: 20px 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+section h1 {
+    margin-bottom: 15px;
+}
+
+#search-form {
+    margin: 15px;
+    padding-bottom: 15px;
+    width: 90%;
+    border-bottom: 2px solid blue;
+}
+
+#past-search {
+    margin: 10px 15px;
+    width: 90%;
+
+}
+
+.city-input {
+    border: solid 1px black;
+    display: block;
+    padding: 5px;
+    font-size: 16px;
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 7px;
+}
+
+.city-search {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 15px;
+    border-radius: 7px;
+    font-size: 16px;
+    background-color: lightgrey;
+}
+
+main {
+    flex: 2 60%;
+    border: 1px solid;
+    margin: 20px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    line-height: 2;
+}
+
+.current {
+    margin: 15px;
+    width: 90%;
+}
+
+#forecast-display {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.forecast-card {
+    background: blue;
+    flex: 1;
+    margin-right: 10px;
+}
+
+.forecast-info {
+    padding: 15px;
+    color: white;
+    line-height: 2;
+}
+
+
+/* utility classes */
+
+.hide {
+    display: none;
+}
